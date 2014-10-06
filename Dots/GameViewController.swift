@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Protspace Corp. All rights reserved.
 //
 
+
+
 import UIKit
 import SpriteKit
 
@@ -26,26 +28,31 @@ extension SKNode {
 }
 
 class GameViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
-            // Configure the view.
-            let skView = self.view as SKView
-            skView.showsFPS = true
-            skView.showsNodeCount = true
+    
+    
+     override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews();
+        
+        // Configure the view.
+        let skView = self.view as SKView
+       // println(UIDevice.currentDevice().model)
             
-            /* Sprite Kit applies additional optimizations to improve rendering performance */
-            skView.ignoresSiblingOrder = true
+            // Create and configure the scene.
+            let scene = GameScene(size:skView.bounds.size)
+            scene.scaleMode = .AspectFill;
             
-            /* Set the scale mode to scale to fit the window */
-            scene.scaleMode = .AspectFill
-            
+            // Present the scene.
             skView.presentScene(scene)
-        }
+        
+        
+        
     }
 
+    
+  
+    
+       
+    
     override func shouldAutorotate() -> Bool {
         return true
     }

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18206F7219E0238100D30715 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 18206F7119E0238100D30715 /* Spaceship.png */; };
+		18206F8819E0354900D30715 /* background-ipad.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 18206F7D19E0354900D30715 /* background-ipad.atlas */; };
+		18206F8919E0354900D30715 /* foreground-ipad.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 18206F7E19E0354900D30715 /* foreground-ipad.atlas */; };
+		18206F8A19E0354900D30715 /* sprites-ipad.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 18206F7F19E0354900D30715 /* sprites-ipad.atlas */; };
+		18206F8B19E0354900D30715 /* background.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 18206F8119E0354900D30715 /* background.atlas */; };
+		18206F8C19E0354900D30715 /* foreground.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 18206F8219E0354900D30715 /* foreground.atlas */; };
+		18206F8D19E0354900D30715 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 18206F8319E0354900D30715 /* sprites.atlas */; };
+		18206F8E19E0354900D30715 /* background-568.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 18206F8519E0354900D30715 /* background-568.atlas */; };
+		18206F8F19E0354900D30715 /* foreground-568.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 18206F8619E0354900D30715 /* foreground-568.atlas */; };
+		18206F9019E0354900D30715 /* sprites-568.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 18206F8719E0354900D30715 /* sprites-568.atlas */; };
 		1899660719E013E100FB1F9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899660619E013E100FB1F9D /* AppDelegate.swift */; };
 		1899660919E013E100FB1F9D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1899660819E013E100FB1F9D /* GameScene.sks */; };
 		1899660B19E013E100FB1F9D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899660A19E013E100FB1F9D /* GameScene.swift */; };
@@ -15,6 +25,17 @@
 		1899661219E013E100FB1F9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1899661119E013E100FB1F9D /* Images.xcassets */; };
 		1899661519E013E100FB1F9D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1899661319E013E100FB1F9D /* LaunchScreen.xib */; };
 		1899662119E013E100FB1F9D /* DotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899662019E013E100FB1F9D /* DotsTests.swift */; };
+		1899663019E01AE900FB1F9D /* Background.psd in Resources */ = {isa = PBXBuildFile; fileRef = 1899662E19E01AE800FB1F9D /* Background.psd */; };
+		18A3138719E08FFB0045F270 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A3138619E08FFB0045F270 /* Background.png */; };
+		18A3139119E13F7E0045F270 /* DotBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A3139019E13F7E0045F270 /* DotBlue.png */; };
+		18A3139319E1442A0045F270 /* DotRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A3139219E1442A0045F270 /* DotRed.png */; };
+		18A3139519E16AEA0045F270 /* Grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A3139419E16AEA0045F270 /* Grid.png */; };
+		18EAD10119E185BC00372D1D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD10019E185BC00372D1D /* Player.swift */; };
+		18EAD10519E1D31500372D1D /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAD10419E1D31500372D1D /* Matrix.swift */; };
+		18EAD10719E2BDC100372D1D /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAD10619E2BDC100372D1D /* Arrow.png */; };
+		18FAC6B019E2C1A600CCC8C0 /* ArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FAC6AF19E2C1A600CCC8C0 /* ArrowDown.png */; };
+		18FAC6B219E2CFF000CCC8C0 /* alarm_clock-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FAC6B119E2CFF000CCC8C0 /* alarm_clock-50.png */; };
+		18FAC6B419E2D04000CCC8C0 /* alarm_clock-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FAC6B319E2D04000CCC8C0 /* alarm_clock-32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18206F7119E0238100D30715 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		18206F7D19E0354900D30715 /* background-ipad.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "background-ipad.atlas"; sourceTree = "<group>"; };
+		18206F7E19E0354900D30715 /* foreground-ipad.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "foreground-ipad.atlas"; sourceTree = "<group>"; };
+		18206F7F19E0354900D30715 /* sprites-ipad.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "sprites-ipad.atlas"; sourceTree = "<group>"; };
+		18206F8119E0354900D30715 /* background.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = background.atlas; sourceTree = "<group>"; };
+		18206F8219E0354900D30715 /* foreground.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = foreground.atlas; sourceTree = "<group>"; };
+		18206F8319E0354900D30715 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		18206F8519E0354900D30715 /* background-568.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "background-568.atlas"; sourceTree = "<group>"; };
+		18206F8619E0354900D30715 /* foreground-568.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "foreground-568.atlas"; sourceTree = "<group>"; };
+		18206F8719E0354900D30715 /* sprites-568.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "sprites-568.atlas"; sourceTree = "<group>"; };
 		1899660119E013E100FB1F9D /* Dots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1899660519E013E100FB1F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1899660619E013E100FB1F9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +71,17 @@
 		1899661A19E013E100FB1F9D /* DotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1899661F19E013E100FB1F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1899662019E013E100FB1F9D /* DotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotsTests.swift; sourceTree = "<group>"; };
+		1899662E19E01AE800FB1F9D /* Background.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Background.psd; sourceTree = "<group>"; };
+		18A3138619E08FFB0045F270 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		18A3139019E13F7E0045F270 /* DotBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DotBlue.png; sourceTree = "<group>"; };
+		18A3139219E1442A0045F270 /* DotRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DotRed.png; sourceTree = "<group>"; };
+		18A3139419E16AEA0045F270 /* Grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grid.png; sourceTree = "<group>"; };
+		18EAD10019E185BC00372D1D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		18EAD10419E1D31500372D1D /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		18EAD10619E2BDC100372D1D /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
+		18FAC6AF19E2C1A600CCC8C0 /* ArrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArrowDown.png; sourceTree = "<group>"; };
+		18FAC6B119E2CFF000CCC8C0 /* alarm_clock-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm_clock-50.png"; sourceTree = "<group>"; };
+		18FAC6B319E2D04000CCC8C0 /* alarm_clock-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm_clock-32.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +102,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18206F7B19E0354900D30715 /* TextureAtlases */ = {
+			isa = PBXGroup;
+			children = (
+				18206F7C19E0354900D30715 /* iPad */,
+				18206F8019E0354900D30715 /* iPhone */,
+				18206F8419E0354900D30715 /* WidescreeniPhone */,
+			);
+			path = TextureAtlases;
+			sourceTree = "<group>";
+		};
+		18206F7C19E0354900D30715 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				18206F7D19E0354900D30715 /* background-ipad.atlas */,
+				18206F7E19E0354900D30715 /* foreground-ipad.atlas */,
+				18206F7F19E0354900D30715 /* sprites-ipad.atlas */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		18206F8019E0354900D30715 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				18206F8119E0354900D30715 /* background.atlas */,
+				18206F8219E0354900D30715 /* foreground.atlas */,
+				18206F8319E0354900D30715 /* sprites.atlas */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		18206F8419E0354900D30715 /* WidescreeniPhone */ = {
+			isa = PBXGroup;
+			children = (
+				18206F8519E0354900D30715 /* background-568.atlas */,
+				18206F8619E0354900D30715 /* foreground-568.atlas */,
+				18206F8719E0354900D30715 /* sprites-568.atlas */,
+			);
+			path = WidescreeniPhone;
+			sourceTree = "<group>";
+		};
 		189965F819E013E100FB1F9D = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +166,8 @@
 				1899660619E013E100FB1F9D /* AppDelegate.swift */,
 				1899660819E013E100FB1F9D /* GameScene.sks */,
 				1899660A19E013E100FB1F9D /* GameScene.swift */,
+				18EAD10419E1D31500372D1D /* Matrix.swift */,
+				18EAD10019E185BC00372D1D /* Player.swift */,
 				1899660C19E013E100FB1F9D /* GameViewController.swift */,
 				1899660E19E013E100FB1F9D /* Main.storyboard */,
 				1899661119E013E100FB1F9D /* Images.xcassets */,
@@ -96,6 +180,8 @@
 		1899660419E013E100FB1F9D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18206F7B19E0354900D30715 /* TextureAtlases */,
+				1899662C19E01AE800FB1F9D /* Images */,
 				1899660519E013E100FB1F9D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -116,6 +202,23 @@
 				1899661F19E013E100FB1F9D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1899662C19E01AE800FB1F9D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				18206F7119E0238100D30715 /* Spaceship.png */,
+				18A3139219E1442A0045F270 /* DotRed.png */,
+				18A3139019E13F7E0045F270 /* DotBlue.png */,
+				18FAC6AF19E2C1A600CCC8C0 /* ArrowDown.png */,
+				18FAC6B319E2D04000CCC8C0 /* alarm_clock-32.png */,
+				18FAC6B119E2CFF000CCC8C0 /* alarm_clock-50.png */,
+				18EAD10619E2BDC100372D1D /* Arrow.png */,
+				18A3139419E16AEA0045F270 /* Grid.png */,
+				18A3138619E08FFB0045F270 /* Background.png */,
+				1899662E19E01AE800FB1F9D /* Background.psd */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,10 +301,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18206F8D19E0354900D30715 /* sprites.atlas in Resources */,
+				18206F8819E0354900D30715 /* background-ipad.atlas in Resources */,
+				18206F8F19E0354900D30715 /* foreground-568.atlas in Resources */,
+				18206F8A19E0354900D30715 /* sprites-ipad.atlas in Resources */,
+				18206F7219E0238100D30715 /* Spaceship.png in Resources */,
+				18206F8919E0354900D30715 /* foreground-ipad.atlas in Resources */,
 				1899661519E013E100FB1F9D /* LaunchScreen.xib in Resources */,
 				1899661219E013E100FB1F9D /* Images.xcassets in Resources */,
+				18A3138719E08FFB0045F270 /* Background.png in Resources */,
+				18206F8C19E0354900D30715 /* foreground.atlas in Resources */,
+				18A3139519E16AEA0045F270 /* Grid.png in Resources */,
+				18206F9019E0354900D30715 /* sprites-568.atlas in Resources */,
 				1899660919E013E100FB1F9D /* GameScene.sks in Resources */,
+				18FAC6B019E2C1A600CCC8C0 /* ArrowDown.png in Resources */,
+				18206F8E19E0354900D30715 /* background-568.atlas in Resources */,
 				1899661019E013E100FB1F9D /* Main.storyboard in Resources */,
+				18EAD10719E2BDC100372D1D /* Arrow.png in Resources */,
+				18A3139319E1442A0045F270 /* DotRed.png in Resources */,
+				1899663019E01AE900FB1F9D /* Background.psd in Resources */,
+				18FAC6B219E2CFF000CCC8C0 /* alarm_clock-50.png in Resources */,
+				18FAC6B419E2D04000CCC8C0 /* alarm_clock-32.png in Resources */,
+				18206F8B19E0354900D30715 /* background.atlas in Resources */,
+				18A3139119E13F7E0045F270 /* DotBlue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +341,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EAD10119E185BC00372D1D /* Player.swift in Sources */,
+				18EAD10519E1D31500372D1D /* Matrix.swift in Sources */,
 				1899660B19E013E100FB1F9D /* GameScene.swift in Sources */,
 				1899660D19E013E100FB1F9D /* GameViewController.swift in Sources */,
 				1899660719E013E100FB1F9D /* AppDelegate.swift in Sources */,
@@ -344,9 +468,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Dots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -354,7 +481,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Dots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -413,6 +542,7 @@
 				1899662619E013E100FB1F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1899662719E013E100FB1F9D /* Build configuration list for PBXNativeTarget "DotsTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +551,7 @@
 				1899662919E013E100FB1F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
