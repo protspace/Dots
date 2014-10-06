@@ -103,7 +103,7 @@ class GameScene: SKScene {
             
             ///if ((location.x > 410)&&(location.x < 430))&&((location.y > 40)&&(location.y < 60))
             
-            
+            println("touch position: \(location.x),\(location.y)")
             
             //If touch point position if NOT out of grid..
             if (snapDotPosition (location)? != nil) {
@@ -241,7 +241,7 @@ class GameScene: SKScene {
             }
             else {
                 if (oldPosition.y % _gridSize) == 0 {
-                    newPosition.y = oldPosition.y
+                    newPosition.y = (oldPosition.y - 5.0)
                 } else {
 
                     if ( ((oldPosition.y % _gridSize ) < (_gridSize/2)) &&  ((oldPosition.y % _gridSize) > 0) ) {
@@ -257,6 +257,7 @@ class GameScene: SKScene {
         
     
     //returning new snapped to grid position of the Dot
+    println("new position:\(newPosition.x), \(newPosition.y)")
     return newPosition
         
     }
