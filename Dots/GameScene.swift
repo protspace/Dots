@@ -166,7 +166,7 @@ class GameScene: SKScene {
     }
     
  
-    //Changing postition of Dot so it will now snap the field grid
+    //Changing postition of Dot so it will now snap the field grid  
     func snapDotPosition (oldPosition: CGPoint) -> CGPoint? {
         
         if (((oldPosition.y <= 45))||((oldPosition.x >= 400))) {
