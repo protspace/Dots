@@ -27,6 +27,7 @@ class GameScene: SKScene {
 
     
     override func didMoveToView(view: SKView) {
+
         /* Setup your scene here */
         backgroundColor = SKColor.whiteColor()
 
@@ -48,13 +49,17 @@ class GameScene: SKScene {
         spriteLabelDotRed.name = "labelRed"
         spriteLabelDotRed.position = CGPoint(x: 450, y: 275)
 
-        
+        //Sprite restart button
+        let spriteLabelRestart = SKSpriteNode(imageNamed:"process-32.png")
+        spriteLabelRestart.name = "labelRestart"
+        spriteLabelRestart.position = CGPoint(x: 440, y: 40)
         
         
         
         //Adding both Dot (Label) nodes
         self.addChild(spriteLabelDotBlue)
         self.addChild(spriteLabelDotRed)
+        self.addChild(spriteLabelRestart)
         
         //Setting up turn-arrow (who's turn is now) with default
         self.postTurnLabel(255)
@@ -65,7 +70,6 @@ class GameScene: SKScene {
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         /* Called when a touch begins */
-        
         
         //Sprite for Blue Dot on the field
         let spriteDotBlue = SKSpriteNode(imageNamed:"DotBlue.png")
@@ -81,6 +85,25 @@ class GameScene: SKScene {
             
             //Determing location of touch point
             let location = touch.locationInNode(self)
+            
+            
+            //Restart pressed?
+            var node = self.nodeAtPoint(location)
+            if node.name == "labelRestart" {
+                
+                let loseAction = SKAction.runBlock() {
+                let reveal = SKTransition.flipHorizontalWithDuration(0.5)
+                let gameOverScene = GameOverScene(size: self.size)
+                self.view?.presentScene(gameOverScene)
+                }
+                self.runAction(loseAction)
+
+            }
+            
+            
+            ///if ((location.x > 410)&&(location.x < 430))&&((location.y > 40)&&(location.y < 60))
+            
+            
             
             //If touch point position if NOT out of grid..
             if (snapDotPosition (location)? != nil) {
@@ -130,6 +153,8 @@ class GameScene: SKScene {
                     }
                //changing turn trugger
                 playerTrigger = !playerTrigger
+                
+            
             }
             
         }

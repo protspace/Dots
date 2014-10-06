@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181780B719E2F531007C8C8A /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181780B619E2F531007C8C8A /* GameOverScene.swift */; };
+		181780B919E2F9FF007C8C8A /* process-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 181780B819E2F9FF007C8C8A /* process-32.png */; };
 		18206F7219E0238100D30715 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 18206F7119E0238100D30715 /* Spaceship.png */; };
 		18206F8819E0354900D30715 /* background-ipad.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 18206F7D19E0354900D30715 /* background-ipad.atlas */; };
 		18206F8919E0354900D30715 /* foreground-ipad.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 18206F7E19E0354900D30715 /* foreground-ipad.atlas */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181780B619E2F531007C8C8A /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		181780B819E2F9FF007C8C8A /* process-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "process-32.png"; sourceTree = "<group>"; };
 		18206F7119E0238100D30715 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		18206F7D19E0354900D30715 /* background-ipad.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "background-ipad.atlas"; sourceTree = "<group>"; };
 		18206F7E19E0354900D30715 /* foreground-ipad.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "foreground-ipad.atlas"; sourceTree = "<group>"; };
@@ -166,6 +170,7 @@
 				1899660619E013E100FB1F9D /* AppDelegate.swift */,
 				1899660819E013E100FB1F9D /* GameScene.sks */,
 				1899660A19E013E100FB1F9D /* GameScene.swift */,
+				181780B619E2F531007C8C8A /* GameOverScene.swift */,
 				18EAD10419E1D31500372D1D /* Matrix.swift */,
 				18EAD10019E185BC00372D1D /* Player.swift */,
 				1899660C19E013E100FB1F9D /* GameViewController.swift */,
@@ -211,6 +216,7 @@
 				18A3139219E1442A0045F270 /* DotRed.png */,
 				18A3139019E13F7E0045F270 /* DotBlue.png */,
 				18FAC6AF19E2C1A600CCC8C0 /* ArrowDown.png */,
+				181780B819E2F9FF007C8C8A /* process-32.png */,
 				18FAC6B319E2D04000CCC8C0 /* alarm_clock-32.png */,
 				18FAC6B119E2CFF000CCC8C0 /* alarm_clock-50.png */,
 				18EAD10619E2BDC100372D1D /* Arrow.png */,
@@ -311,6 +317,7 @@
 				1899661219E013E100FB1F9D /* Images.xcassets in Resources */,
 				18A3138719E08FFB0045F270 /* Background.png in Resources */,
 				18206F8C19E0354900D30715 /* foreground.atlas in Resources */,
+				181780B919E2F9FF007C8C8A /* process-32.png in Resources */,
 				18A3139519E16AEA0045F270 /* Grid.png in Resources */,
 				18206F9019E0354900D30715 /* sprites-568.atlas in Resources */,
 				1899660919E013E100FB1F9D /* GameScene.sks in Resources */,
@@ -345,6 +352,7 @@
 				18EAD10519E1D31500372D1D /* Matrix.swift in Sources */,
 				1899660B19E013E100FB1F9D /* GameScene.swift in Sources */,
 				1899660D19E013E100FB1F9D /* GameViewController.swift in Sources */,
+				181780B719E2F531007C8C8A /* GameOverScene.swift in Sources */,
 				1899660719E013E100FB1F9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
